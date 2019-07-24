@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//weather-app/build/static/css/main.e43ea7dc.chunk.css",
-    "main.js": "//weather-app/build/static/js/main.f4f1d90c.chunk.js",
-    "main.js.map": "//weather-app/build/static/js/main.f4f1d90c.chunk.js.map",
-    "runtime~main.js": "//weather-app/build/static/js/runtime~main.83678d97.js",
-    "runtime~main.js.map": "//weather-app/build/static/js/runtime~main.83678d97.js.map",
-    "static/js/2.65aa1cca.chunk.js": "//weather-app/build/static/js/2.65aa1cca.chunk.js",
-    "static/js/2.65aa1cca.chunk.js.map": "//weather-app/build/static/js/2.65aa1cca.chunk.js.map",
-    "index.html": "//weather-app/build/index.html",
-    "precache-manifest.ce597edaed094e6ec42acdc1a4915b0c.js": "//weather-app/build/precache-manifest.ce597edaed094e6ec42acdc1a4915b0c.js",
-    "service-worker.js": "//weather-app/build/service-worker.js",
-    "static/css/main.e43ea7dc.chunk.css.map": "//weather-app/build/static/css/main.e43ea7dc.chunk.css.map",
-    "static/media/Backgrounds.css": "//weather-app/build/static/media/sunny.8e33fed3.jpg"
+    "main.css": "/weather-app/build/static/css/main.e82c48d7.chunk.css",
+    "main.js": "/weather-app/build/static/js/main.f4f1d90c.chunk.js",
+    "main.js.map": "/weather-app/build/static/js/main.f4f1d90c.chunk.js.map",
+    "runtime~main.js": "/weather-app/build/static/js/runtime~main.6752e715.js",
+    "runtime~main.js.map": "/weather-app/build/static/js/runtime~main.6752e715.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/weather-app/build/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/weather-app/build/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/weather-app/build/index.html",
+    "precache-manifest.b23ba8a566773f6eb92b817df2ba0a32.js": "/weather-app/build/precache-manifest.b23ba8a566773f6eb92b817df2ba0a32.js",
+    "service-worker.js": "/weather-app/build/service-worker.js",
+    "static/css/main.e82c48d7.chunk.css.map": "/weather-app/build/static/css/main.e82c48d7.chunk.css.map",
+    "static/media/Backgrounds.css": "/weather-app/build/static/media/sunny.8e33fed3.jpg"
   }
 }
