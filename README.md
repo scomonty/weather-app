@@ -1,4 +1,4 @@
 # weather-app
 geolocation weather app
 
-https://scomonty.github.io/scomonty/weather-app/index.html
+https://scomonty.github.io/weather-app/index.html
