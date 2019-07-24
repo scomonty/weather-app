@@ -1,0 +1,34 @@
+.sunny,
+.rain,
+.night,
+.cloudy,
+.mostlysunny {
+    background-size:cover;
+}
+
+.sunny,
+.rain,
+.night,
+.mostlysunny{
+    color:#fff;
+}
+
+.cloudy {
+    color:#000;
+}
+
+.sunny,
+.mostlysunny{
+	background-image: url('../img/sunny.jpg');
+}
+
+.rain{
+	background-image: url('../img/rain.jpg');
+}
+
+.night{
+	background-image: url('../img/night.jpg');
+}
+.cloudy{
+	background-image: url('../img/cloudy.jpg');
+}

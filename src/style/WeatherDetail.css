@@ -1,0 +1,51 @@
+.currentForecastContainer{
+    text-align: center;
+    margin-top:20px;
+    font-size:1.3rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+
+  .hourlyForecast{
+      display:inline-block;
+      margin:10px;
+      text-align: center;
+      margin-top: 200px;
+  }
+  
+  .currentForecastContainer .currentTemp{
+      font-size:5rem;
+      height:53px;
+  }
+
+  .currentForecastContainer .currentForecast{
+    height:50px;
+  }
+
+  .TopSlider {
+    /* line them up horizontally */
+    display: flex;
+  
+    /* allow for scrolling */
+    overflow-x: auto;
+  
+    /* make it smooth on iOS */
+    -webkit-overflow-scrolling: touch;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+
+  }
+  .TopSlider > .hourlyForecast {
+    /* make sure the width is honored */
+    flex-shrink: 0;
+    width: 50px;
+    height: 150px;
+    text-align: center;
+  }
+
+.TopSlider::-webkit-scrollbar { 
+    display: none;
+}

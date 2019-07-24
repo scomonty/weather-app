@@ -1,0 +1,15 @@
+body{
+		//background: linear-gradient(#84a2ba 60%, #b6c7d5);
+}
+
+.app {
+	color: #000;
+	max-width:600px;
+	display:block;
+	margin:0 auto;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+	background:#f1f1f1;
+	border-radius: 5px;
+	position: relative;
+}
+

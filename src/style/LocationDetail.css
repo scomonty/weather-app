@@ -1,0 +1,9 @@
+.location{
+	font-size:3rem;
+	text-align: center;
+	//background:#73BAFF;
+	padding:40px 0;
+	//box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+	text-transform: uppercase;
+	//color:#fff;
+}

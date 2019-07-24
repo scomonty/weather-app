@@ -1,0 +1,27 @@
+.detailContainer{
+  margin:0 20px;
+}
+
+.weeklyDetailContainer{
+  
+}
+
+.DayOfWeek{
+
+}
+
+OfWeek{
+
+}
+.ForecastOfWeek{
+
+}
+
+.Wind{
+
+}
+
+.Wind::before{
+  content: url('../img/icons/windSpeed.png');
+margin-right:5px;
+}
