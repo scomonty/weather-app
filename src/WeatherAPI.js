@@ -3,6 +3,7 @@ import React from 'react';
 import WeatherDetail from './WeatherDetail';
 import LocationDetail from './LocationDetail';
 import WeeklyDetail from './WeeklyDetail';
+import Loader from './Loader';
 
 class WeatherApi extends React.Component {
     //set our initial state to empty array
@@ -53,18 +54,29 @@ class WeatherApi extends React.Component {
         }
     }
 
+    renderContent() {
+        if(this.state.weatherData.length === 0) {
+            return <div><Loader errorText="Please accept the location request" /></div>
+        }
+        if (this.state.weatherData.length !== 0 && !this.state.errorMessge) {
+            return <div className={this.state.hourlyWeatherData.slice(0, 1).map( week => week.shortForecast.toLowerCase().replace(/\s/g, ""))}>
+            {this.renderLocation()}
+            <div className='TopSlider'>
+            {this.renderWeather()}
+            </div>
+            <div className="detailContainer">
+                {this.renderWeekly()}
+                </div>
+                        </div>
+        }
+    }
+
 
     render() {
         return (
-            <div className={this.state.hourlyWeatherData.slice(0, 1).map( week => week.shortForecast.toLowerCase().replace(/\s/g, ""))}>
-{this.renderLocation()}
-<div className='TopSlider'>
-{this.renderWeather()}
-</div>
-<div className="detailContainer">
-    {this.renderWeekly()}
-    </div>
-			</div>
+            <div>
+            { this.renderContent() }
+            </div>
         )
     }
 }

@@ -35,7 +35,7 @@ const WeatherDetail = ({weather}) => {
 return (
 	<div className="hourlyForecast">
 <div>{timeStamp(weather.startTime)}</div>
-<img src={`/img/icons/${weather.shortForecast.toLowerCase().replace(/\s/g, "")}.png`} alt={weather.shortForecast} title={weather.shortForecast}></img>
+<img src={`/weather-app/img/icons/${weather.shortForecast.toLowerCase().replace(/\s/g, "")}.png`} alt={weather.shortForecast} title={weather.shortForecast}></img>
 <div className="hourlyTemp">{weather.temperature}&#176;F</div>
 </div>
 )
