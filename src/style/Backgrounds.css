@@ -2,14 +2,18 @@
 .rain,
 .night,
 .cloudy,
-.mostlysunny {
+.mostlysunny,
+.clear,
+.thunderstorm {
     background-size:cover;
 }
 
 .sunny,
 .rain,
 .night,
-.mostlysunny{
+.mostlysunny,
+.clear,
+.thunderstorm{
     color:#fff;
 }
 
@@ -30,5 +34,11 @@
 	background-image: url('../img/night.jpg');
 }
 .cloudy{
-	background-image: url('../img/cloudy.jpg');
+	background-image: url('../img/cloudy3.jpg');
+}
+.clear{
+	background-image: url('../img/clear.jpg');
+}
+.thunderstorm{
+	background-image: url('../img/thunderstorm.jpg');
 }

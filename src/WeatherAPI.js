@@ -54,12 +54,30 @@ class WeatherApi extends React.Component {
         }
     }
 
+
+    getWeatherForBackground(weather) {
+
+        if (weather.startTime.slice(11,13) > 22 && weather.startTime.slice(11,13) < 6 ) {
+            return(`night`)
+        }
+        if (weather.shortForecast.toLowerCase().includes('sunny')) {
+            return('sunny');
+        }
+        if (weather.shortForecast.toLowerCase().includes('thunder')) {
+            return('thunderstorm');
+        }
+        return(`${weather.shortForecast.toLowerCase()}`);
+    }
+
+
+
+
     renderContent() {
         if(this.state.weatherData.length === 0) {
             return <div><Loader errorText="Please accept the location request" /></div>
         }
         if (this.state.weatherData.length !== 0 && !this.state.errorMessge) {
-            return <div className={this.state.hourlyWeatherData.slice(0, 1).map( week => week.shortForecast.toLowerCase().replace(/\s/g, ""))}>
+            return <div className={this.state.hourlyWeatherData.slice(0, 1).map( week => this.getWeatherForBackground(week))}>
             {this.renderLocation()}
             <div className='TopSlider'>
             {this.renderWeather()}
