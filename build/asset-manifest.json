@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ude-react/react/weather/build/static/css/main.3c6125bd.chunk.css",
-    "main.js": "/ude-react/react/weather/build/static/js/main.11e28229.chunk.js",
-    "main.js.map": "/ude-react/react/weather/build/static/js/main.11e28229.chunk.js.map",
-    "runtime~main.js": "/ude-react/react/weather/build/static/js/runtime~main.22c7d9ef.js",
-    "runtime~main.js.map": "/ude-react/react/weather/build/static/js/runtime~main.22c7d9ef.js.map",
-    "static/js/2.65aa1cca.chunk.js": "/ude-react/react/weather/build/static/js/2.65aa1cca.chunk.js",
-    "static/js/2.65aa1cca.chunk.js.map": "/ude-react/react/weather/build/static/js/2.65aa1cca.chunk.js.map",
-    "index.html": "/ude-react/react/weather/build/index.html",
-    "precache-manifest.3a2a07e00ba953b62f1d7bc0d12005b7.js": "/ude-react/react/weather/build/precache-manifest.3a2a07e00ba953b62f1d7bc0d12005b7.js",
-    "service-worker.js": "/ude-react/react/weather/build/service-worker.js",
-    "static/css/main.3c6125bd.chunk.css.map": "/ude-react/react/weather/build/static/css/main.3c6125bd.chunk.css.map",
-    "static/media/Backgrounds.css": "/ude-react/react/weather/build/static/media/sunny.8e33fed3.jpg"
+    "main.css": "/weather-app/build/static/css/main.e82c48d7.chunk.css",
+    "main.js": "/weather-app/build/static/js/main.f4f1d90c.chunk.js",
+    "main.js.map": "/weather-app/build/static/js/main.f4f1d90c.chunk.js.map",
+    "runtime~main.js": "/weather-app/build/static/js/runtime~main.6752e715.js",
+    "runtime~main.js.map": "/weather-app/build/static/js/runtime~main.6752e715.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/weather-app/build/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/weather-app/build/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/weather-app/build/index.html",
+    "precache-manifest.b23ba8a566773f6eb92b817df2ba0a32.js": "/weather-app/build/precache-manifest.b23ba8a566773f6eb92b817df2ba0a32.js",
+    "service-worker.js": "/weather-app/build/service-worker.js",
+    "static/css/main.e82c48d7.chunk.css.map": "/weather-app/build/static/css/main.e82c48d7.chunk.css.map",
+    "static/media/Backgrounds.css": "/weather-app/build/static/media/sunny.8e33fed3.jpg"
   }
 }
