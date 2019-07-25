@@ -4,7 +4,8 @@
 .cloudy,
 .mostlysunny,
 .clear,
-.thunderstorm {
+.thunderstorm,
+.failedScreen {
     background-size:cover;
 }
 
@@ -13,7 +14,8 @@
 .night,
 .mostlysunny,
 .clear,
-.thunderstorm{
+.thunderstorm,
+.failedScreen{
     color:#fff;
 }
 
@@ -41,4 +43,7 @@
 }
 .thunderstorm{
 	background-image: url('../img/thunderstorm.jpg');
+}
+.failedScreen{
+	background-image: url('../img/missing.jpg');
 }
