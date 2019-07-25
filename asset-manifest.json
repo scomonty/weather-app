@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/weather-app/static/css/main.45516dde.chunk.css",
+    "main.css": "/weather-app/static/css/main.20cbfa84.chunk.css",
     "main.js": "/weather-app/static/js/main.fc485251.chunk.js",
     "main.js.map": "/weather-app/static/js/main.fc485251.chunk.js.map",
     "runtime~main.js": "/weather-app/static/js/runtime~main.4606d7f5.js",
@@ -8,9 +8,9 @@
     "static/js/2.65aa1cca.chunk.js": "/weather-app/static/js/2.65aa1cca.chunk.js",
     "static/js/2.65aa1cca.chunk.js.map": "/weather-app/static/js/2.65aa1cca.chunk.js.map",
     "index.html": "/weather-app/index.html",
-    "precache-manifest.6ff05c30cb8de317c75d010b8eec2b19.js": "/weather-app/precache-manifest.6ff05c30cb8de317c75d010b8eec2b19.js",
+    "precache-manifest.7cb3e69088d22bf7a94daa86122464dd.js": "/weather-app/precache-manifest.7cb3e69088d22bf7a94daa86122464dd.js",
     "service-worker.js": "/weather-app/service-worker.js",
-    "static/css/main.45516dde.chunk.css.map": "/weather-app/static/css/main.45516dde.chunk.css.map",
+    "static/css/main.20cbfa84.chunk.css.map": "/weather-app/static/css/main.20cbfa84.chunk.css.map",
     "static/media/Backgrounds.css": "/weather-app/static/media/thunderstorm.ed378933.jpg"
   }
 }
