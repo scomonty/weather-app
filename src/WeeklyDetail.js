@@ -3,7 +3,6 @@ import React from 'react';
 
 
 const WeeklyDetail = ({weekly}) => {
-    console.log({weekly})
     if(!weekly.name.includes(' Night')){
 
 	return (

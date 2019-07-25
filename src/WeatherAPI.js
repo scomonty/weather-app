@@ -21,6 +21,7 @@ class WeatherApi extends React.Component {
             (err) => this.setState({ errorMessge: err.message })
         );
 
+
     }
 
     getLocalForcast(responseData) {
@@ -57,7 +58,7 @@ class WeatherApi extends React.Component {
 
     getWeatherForBackground(weather) {
 
-        if (weather.startTime.slice(11,13) > 22 && weather.startTime.slice(11,13) < 6 ) {
+        if (!weather.isDaytime ) {
             return(`night`)
         }
         if (weather.shortForecast.toLowerCase().includes('sunny')) {
