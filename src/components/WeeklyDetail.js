@@ -1,4 +1,4 @@
-import './style/WeeklyDetail.css';
+import '../style/WeeklyDetail.css';
 import React from 'react';
 
 

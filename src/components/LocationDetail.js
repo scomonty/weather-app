@@ -1,4 +1,4 @@
-import './style/LocationDetail.css';
+import '../style/LocationDetail.css';
 import React from 'react';
 
 const LocationDetail = ({location}) => {
